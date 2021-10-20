@@ -1,0 +1,8 @@
+
+
+fields:
+    content:
+        label: Content   
+        type: richeditor
+        toolbarButtons:  bold|italic|fontSize|color|inlineStyle|paragraphStyle|paragraphFormat|align|formatOL|formatUL|outdent|indent|quote|insertHR|undo|redo|clearFormatting|selectAll|html
+        size: huge 

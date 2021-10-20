@@ -1,0 +1,16 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    subject: 
+        label: Subject
+        searchable: true
+    button:
+        label: SetContent
+        type: partial
+        clickable: false
+        path: $/rezalael/test/models/testmodel/_button.htm

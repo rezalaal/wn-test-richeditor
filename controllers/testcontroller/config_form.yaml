@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Test Controller
+
+# Model Form Field configuration
+form: $/rezalael/test/models/testmodel/fields.yaml
+
+# Model Class name
+modelClass: Rezalael\Test\Models\TestModel
+
+# Default redirect location
+defaultRedirect: rezalael/test/testcontroller
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: rezalael/test/testcontroller/update/:id
+    redirectClose: rezalael/test/testcontroller
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: rezalael/test/testcontroller
+    redirectClose: rezalael/test/testcontroller
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
